@@ -8,7 +8,7 @@
 
   overflow-wrap: break-word;
 
-  -webkit-tap-highlights-color: transparent;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .card p {
