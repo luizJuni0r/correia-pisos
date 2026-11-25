@@ -1,0 +1,33 @@
+.card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: var(--espaçamento);
+  color: var(--text);
+  text-decoration: none;
+  box-shadow: var(--shadow);
+
+  overflow-wrap: break-word;
+}
+
+.card p {
+  font-size: 0.87rem;
+}
+
+.card h2 {
+  font-size: 1rem;
+}
+
+.card--interativo {
+  transition: 
+    transform 150ms ease,
+    background-color 260ms ease
+  ;
+}
+
+.card--interativo:hover {
+  background-color: color-mix(in srgb, var(--surface), black 3%);
+}
+
+.card--interativo:active {
+  transform: scale(0.98);
+}

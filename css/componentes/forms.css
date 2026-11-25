@@ -1,0 +1,48 @@
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--espaçamento) / 4);
+}
+
+.input {
+  background: var(--surface-input);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.80rem;
+}
+
+.input:focus {
+  outline: 1px solid var(--primary);
+  border-color: var(--primary);
+}
+
+.input-senha {
+  display: flex;
+  align-items: center;
+  background: var(--surface-input);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.input-senha .input {
+  flex: 1;
+  min-width: 0;
+  border: none;
+  background: transparent;
+}
+
+.input-senha button {
+  border: none;
+  background: transparent;
+  padding: 0.8rem;
+  cursor: pointer;
+}
+
+.input-senha .input:focus {
+  outline: none;
+}
+
+.input-senha:focus-within {
+  outline: 1px solid var(--primary);
+  border-color: var(--primary);  
+}
