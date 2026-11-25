@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>Login</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/componentes/card.css"/>
+    <link rel="stylesheet" href="css/componentes/forms.css"/>
+    <link rel="stylesheet" href="css/paginas/login.css"/>
+  </head>
+
+  <body>
+    <img src="assets/logo.svg" alt="Logo Correia Pisos">
+    <main class="card">
+      <section>
+        <h1>Bem-vindo!</h1>
+        <p>Acesse para continuar.</p>
+      </section>
+      <form method="POST">
+        <div class="campo">
+          <label for="usuario">Usuário</label>
+          <input type="text" id="usuario" name="usuario" required autocomplete="username" class="input">
+        </div>
+        <div class="campo">
+          <label for="senha">Senha</label>
+          <div class="input-senha">
+            <input type="password" id="senha" name="senha" required autocomplete="current-password" class="input">
+            <button type="button" aria-label="Mostrar senha"><img src="" alt=""></button>
+          </div>
+        </div>
+        <a href="#">Esqueci minha senha</a>
+        <button type="submit">Entrar</button>
+      </form>
+    </main>
+    <footer>Correia Pisos e Decorações</footer>
+  </body>
+</html>
