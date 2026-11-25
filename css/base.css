@@ -16,6 +16,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  -webkit-tap-highlights-color: transparent !important;
 }
 
 body {
@@ -29,4 +30,6 @@ body {
 h1, h2, h3, h4 {
   margin: 0;
 }
+
+
 
